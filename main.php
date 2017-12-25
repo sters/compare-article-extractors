@@ -15,6 +15,7 @@ $extractors = [
     },
 
     'scotteh/php-goose'     => function ($url, $html) {
+        // NOTE: https://github.com/scotteh/php-goose/pull/76
         $goose = new \Goose\Client([
             'language' => 'ja',
         ]);
