@@ -1,0 +1,20 @@
+{
+  "name": "hoge/hoge",
+  "description": "Extract web articles",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "sters/extract-content": "dev-master",
+    "zackslash/php-web-article-extractor": "dev-master",
+    "scotteh/php-goose": "dev-master",
+    "j0k3r/php-readability": "dev-master"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+  },
+  "autoload-dev": {
+  },
+  "scripts": {
+  }
+}
